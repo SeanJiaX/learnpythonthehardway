@@ -1,0 +1,6 @@
+#in_file = open(input("Please type the file name you want to copy:"))
+#out_file = open(input("please enter the file name that you want to wirte in:"), 'w')
+#out_file.write(in_file.read())
+#in_file.close()
+#out_file.close()
+open(input("please enter the file name that you want to wirte in:"),'w').write(open(input("Please type the file name you want to copy:")).read())
